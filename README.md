@@ -1,6 +1,6 @@
 # Claude Style Patch
 
-A drop-in style section for `CLAUDE.md` that changes how Claude writes prose, targeting the worst of recent 'Claudish' in the generations since 4.6. I've been driving it for a long time now with success - this represents the final product battle-hardened against many, many Opus / Fable turns.
+A drop-in style section for `CLAUDE.md` that helps Claude writes clearer prose, targeting the worst of recent 'Claudish' in the generations since 4.6. I've been driving it for a long time now with success - this represents the final product battle-hardened against many, many Opus / Fable turns.
 
 Dense, gnarled prose was driving me insane when using Claude, so this was built to fix it. I like Anthropic as a company and want them to do well, but I think Claude's communication with humans has been drifting in the wrong direction. The problem showed up in generated documents as much as in chat replies, so the spec covers documents and deliverables and code comments alongside ordinary conversation.
 
