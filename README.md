@@ -15,9 +15,7 @@ and stack compressed phrases against each other until a sentence has to be
 decoded rather than read. Those habits get worse as a conversation gets longer
 and more abstract, which is when clear prose matters most.
 
-The patch states each habit as a ban with a repair attached. Claude follows a
-concrete rule far better than it follows a stated preference, so every rule
-here names the habit, shows an example of it, and gives the rewrite. I've been quite satisfied with the results after daily driving this for quite some time, starting with Opus 4.8. 
+The patch uses a variety of tactics - explicit examples & text exemplars as well as calling out habits more granularly. I've been quite satisfied with the results after daily driving this for quite some time, starting with Opus 4.8. 
 
 ## Install
 
