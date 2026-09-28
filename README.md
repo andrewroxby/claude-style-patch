@@ -15,7 +15,9 @@ and stack compressed phrases against each other until a sentence has to be
 decoded rather than read. Those habits get worse as a conversation gets longer
 and more abstract, which is when clear prose matters most.
 
-The patch uses a variety of tactics - explicit examples & text exemplars as well as calling out habits more granularly. I've been quite satisfied with the results after daily driving this for quite some time, starting with Opus 4.8. 
+The patch uses a variety of tactics - explicit examples & text exemplars as well as calling out habits more granularly. I've been quite satisfied with the results after daily driving this for quite some time, starting with Opus 4.8.
+
+The current version, tuned against Opus 5.5, frames the rules as defaults applied with judgment instead of absolute bans. Claude Code loads `CLAUDE.md` as instructions that override its defaults, so hard bans turned into laws. In one long writing project, banning the usual connectives while naming "so" as a plain alternative made Claude open nearly every inferential sentence with "So". The guide now also says that when Claude writes for an audience other than you, that genre's conventions come first, with these rules filling the gaps.
 
 ## Install
 
@@ -31,10 +33,10 @@ or into any system prompt.
 
 ## Caveats
 
-Compliance is good but not total, and it degrades especially on long threads. Fable seems to be better at flawlessly following the spec than Opus, again, especially on longer threads. The opening paragraph tells Claude to re-check the rules when the material turns dense,
+Compliance is good but not total, and it degrades especially on long threads. Fable seems to be better at flawlessly following the spec than Opus, again, especially on longer threads. The guide tells Claude to re-check the rules when the material turns dense,
 which helps and does not fully solve it. Telling Claude directly to 'hew closely to the response style instructions' does, however, seem to work particularly well; eg before creating long prompts to other agents or generating new prose. 
 
-The file is roughly 1,600 words. I've found the context deeply worth it in sessions across both Claude Code and Claude.ai. 
+The file is roughly 1,500 words. I've found the context deeply worth it in sessions across both Claude Code and Claude.ai. 
 
 ## License
 
