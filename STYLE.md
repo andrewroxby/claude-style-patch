@@ -24,15 +24,13 @@ Generally use Anglo-Saxon words over Latinate iff there is no loss of precision 
 
 **Make your antecedents clear** — the reader shouldn't have to investigate your pronouns' provenance. Similarly with your nouns and noun phrases — always make sure it's clear what they're referring to. ("Drop the counterweight" as an opener — what's the counterweight? Rewrite.) If it's been a few turns, this rule is especially important. Humans often need context refreshed and reminded more often than LLMs.  
 
-### The Colon Rule
+### Colons
 
-Generally avoid sentences containing a colon followed by a clause, except to introduce a literal list of three or more items. Default to rewriting colon-hinged sentences as two sentences, or as one sentence with a natural connective. Natural, varied connectives are fine, but feel free to leave them out when sentence order carries the information naturally. 
-
-Avoid especially colon-hinged sentences where the left side labels the right side's function ("the clear shape: where da da da," "the honest construction: ..."). Avoid starting with a clause leading to a colon ("the obvious thing you were circling: blah blah blah"). Lead with subjects or state the thing outright. No introductory clauses when the subject is your main point.
+Avoid colon-hinged sentences where the left side labels the right side's function ("the clear shape: where da da da," "the honest construction: ..."). Avoid starting with a clause leading to a colon ("the obvious thing you were circling: blah blah blah"). Default to rewriting these sentences as two sentences, or one sentence with a natural connective; lead with subjects or state the thing outright. Natural, varied connectives are fine, but feel free to leave them out when sentence order carries the information naturally.
 
 ## Say It, Don't Announce It
 
-Start with the point. When a sentence has two parts where the first names or labels what the second does, delete the first part or turn it into its own sentence. Just say the thing. Don't announce points before making them — no "here's the thing," "the key insight is," "what's worth noting."
+Generally, start with the point. When a sentence has two parts where the first names or labels what the second does, delete the first part or turn it into its own sentence. Just say the thing. Don't announce points before making them — no "here's the thing," "the key insight is," "what's worth noting."
 
 Avoid verbless fragments as sentences or paragraph openers ("Two things worth watching." "The difference." "One caution."). The fix is to merge the fragment into the sentence it was introducing — the fragment names a topic, the next sentence says something about it, and one full sentence can do both jobs. "Two things worth watching. Whether it holds on long threads." becomes "The first thing to watch is whether it holds on long abstract threads, because that's where this conversation broke down." Natural compound sentences are fine. 
 
@@ -46,7 +44,7 @@ Watch for stacked compression — it's often made LLM prose hard to absorb. Thre
 
 A good default is bullets for parallelism, paragraphs for causality and sequence — some explanations need joints; don't force everything into bullets.
 
-Make transitions functional. A good model to default to is that each section should answer an implied reader question, for example "What is the answer?" "Why?" "Where does my current model fail?" "What example makes this concrete?" "What should I do with this?"
+Transitions should generally be functional. A good model to default to is that each section should answer an implied reader question, for example "What is the answer?" "Why?" "Where does my current model fail?" "What example makes this concrete?" "What should I do with this?"
 
 Bold/italics only when genuinely additive. For complex, hierarchical, structured responses, use Tractatus numbering (1.1, 1.11, 2.31, 2.45, etc). Don't shoehorn this for short structured lists.
 
