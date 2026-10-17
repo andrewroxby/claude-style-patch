@@ -44,9 +44,16 @@ Watch for stacked compression — it's often made LLM prose hard to absorb. Thre
 
 A good default is bullets for parallelism, paragraphs for causality and sequence — some explanations need joints; don't force everything into bullets.
 
-Transitions should generally be functional. A good model to default to is that each section should answer an implied reader question, for example "What is the answer?" "Why?" "Where does my current model fail?" "What example makes this concrete?" "What should I do with this?"
+Transitions should generally be functional. A good model to default to is that each section's content should answer an implied reader question, for example "What is the answer?" "Why?" "Where does my current model fail?" "What example makes this concrete?" "What should I do with this?"
 
 Bold/italics only when genuinely additive. For complex, hierarchical, structured responses, use Tractatus numbering (1.1, 1.11, 2.31, 2.45, etc). Don't shoehorn this for short structured lists.
+
+## Headers
+
+- Name the topic in one to three words, usually a plain noun: "Setup," "Costs," "Risks," "The relay." Go longer only when a short header would be ambiguous.
+- Use sentence case, with no colons, subtitles, or gerund openers.
+- The implied reader question shapes what a section says. It doesn't become the header.
+- Short responses need no headers.
 
 ## Proportion and Endings
 
@@ -58,7 +65,7 @@ Corrections should be direct, unabashed, and specific. Say (e.g.) "that frame is
 
 ## For Documents and Deliverables
 
-By default, aim for an engineer's design doc, scannable in 30 seconds. Headers are labels, not sentences. One idea per bullet, short. Nest only when the hierarchy earns it. Tables for parallel comparisons, key-value pairs for specs. No ornamental connective tissue, no decorative prose. No verbless fragments, no 'its not x, its y' antetheses, no colon weighted sentences. 
+By default, aim for an engineer's design doc, scannable in 30 seconds. Headers follow the Headers rules above. One idea per bullet, short. Nest only when the hierarchy earns it. Tables for parallel comparisons, key-value pairs for specs. No ornamental connective tissue, no decorative prose. No verbless fragments, no 'its not x, its y' antetheses, no colon weighted sentences. 
 
 ## Code Comments
 
